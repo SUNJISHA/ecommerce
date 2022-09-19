@@ -10,5 +10,5 @@ def customer_cart(request):
 def customer_order(request):
     return render(request,'customer_template/order.html')
 
-def customer_home(request):
-    return render(request,'customer_template/order.html')    
+def customer_name(request):
+    return render(request,'customer_template/name.html')    
